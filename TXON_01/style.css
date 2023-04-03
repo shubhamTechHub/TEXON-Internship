@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(25, 20, 20);
+    padding: 0 60px;
+    min-height: 10vh;
+}
+
+.spotify-logo {
+    height: 40px;
+    cursor: pointer;
+}
+
+.nav-items-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-item {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 17px;
+    cursor: pointer;
+}
+
+
+.nav-btn {
+    color: #d9dadc;
+}
+
+.nav-item:hover {
+    color: #1ed760;
+}
+
+.separator {
+    color: #ffffff;
+    height: 16px;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    padding: 0 60px;
+    background: url(https://www.scdn.co/i/free/bubbles-mobile.svg) center center / 100% 927px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.get-premium-heading {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 45px;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.get-premium-para {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+}
+
+.btn-container {
+    margin-top: 35px;
+    margin-bottom: 42px;
+}
+
+.get-started-btn {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 600;
+    border: 2px solid #000;
+    border-radius: 40px;
+    padding: 15px 30px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.get-started-btn:hover {
+    transform: scale(1.03);
+}
+
+.view-plans-btn {
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 600;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 15px 30px;
+}
+
+.view-plans-btn:hover {
+    transform: scale(1.03);
+}
+
+.term-condition {
+    font-family: 'Roboto';
+    font-size: 11px;
+    color: #fff;
+}
+
+.span {
+    text-decoration: underline;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    background-color: #fff;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.mobile-speaker {
+    background-color: #231f20;
+    height: 5px;
+    width: 44px;
+    border-radius: 10px;
+    align-self: center;
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
+
+.mobile-img {
+    width: 267px;
+    height: 410px;
+}
+
+.second-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.go-premium-heading {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 3;
+}
+
+.go-premium-container {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-bottom: 55px;
+}
+
+.go-premium-icon {
+    height: 142px;
+    width: 142px;
+    margin-bottom: 20px;
+    
+}
+
+.go-premium-card {
+    vertical-align: top;
+    text-align: center;
+    flex-grow: 1;
+    width: 270px;
+}
+
+.card-heading {
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 0px;
+    line-height: 1.3em;
+    font-size: 21px;
+    letter-spacing: normal;
+    margin-bottom: 10px;
+}
+
+.card-para {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.5;
+    padding: 0px;
+    width: 85%;
+    margin: 0px auto;
+}
+
+.third-section-container {
+    background-image: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    text-align: center;
+    width: 100%;
+}
+
+.heading1 {
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    padding-top: 190px;
+    color: #fff;
+    margin-block: 0px;
+}
+
+.heading2 {
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    padding-bottom: 190px;
+    color: #fff;
+    margin-block: 0px;
+}
+
+.forth-section-container {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pick-your-premium {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    padding-top: 58px;
+    margin-block: 0px;
+}
+
+.listen-without-limit {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 2;
+    margin-block: 0px;
+}
+
+.card-img {
+    height: 20px;
+    width: 32px;
+    margin-top: 10px;
+}
+
+.premium-plan-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    width: 90%;
+    margin-bottom: 100px;
+}
+
+.plan-card {
+    height: 650px;
+    width: 270px;
+    text-align: left;
+    padding: 15px 12px;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+.first-para {
+    background-image: linear-gradient(rgb(176, 35, 194) 40%, rgb(96, 11, 231));
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-block: 10px;
+}
+
+.individual {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    margin-block: 5px;
+}
+
+.features-main-para {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.features-card {
+    list-style-type: none;
+    padding-left: 0;
+    height: 260px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+}
+
+.features-para {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 12px;
+}
+
+.plan-button {
+    width: 100%;
+}
+
+.feature-term-condition {
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.footer-bg-container {
+    background-color: #000;
+    width: 100%;
+    padding: 90px 50px 50px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-main-container {
+    display: flex;
+}
+
+.footer-list-container {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.list-heading {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #91907d;
+    font-size: 15px;
+}
+
+.list-item {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #fff;
+    font-size: 16px;
+    line-height: 3;
+}
+
+.footer-list-icon-container {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-left: auto;
+    width: 22%;
+}
+
+.social-media-icon {
+    background-color: #222326;
+    padding: 18px 10px 0px 17px;
+    border-radius: 50px;
+    height: 50px;
+    width: 54px;
+}
+
+.list-item:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+.footer-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.privacy-policy-container {
+    list-style-type: none;
+    padding-left: 0;
+    width: 32%;
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+}
+
+.privacy-policy-list-item {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #91907d;
+    font-size: 12px;
+}
+
+.privacy-policy-list-item:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+.copyrigth-container {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.copyrigth-list-item {
+    display: flex;
+    align-items: center;
+}
+
+.copyrigth-para {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #91907d;
+    font-size: 12px;
+}
+
+.footer-para {
+    margin-left: 10px;
+}
