@@ -392,14 +392,10 @@ body {
     border-radius: 50px;
     height: 50px;
     width: 54px;
-}
-
-.list-item:hover {
-    color: #1ed760;
     cursor: pointer;
 }
 
-.social-media-icon:hover {
+.list-item:hover {
     color: #1ed760;
     cursor: pointer;
 }
