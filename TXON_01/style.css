@@ -399,6 +399,11 @@ body {
     cursor: pointer;
 }
 
+.social-media-icon:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
 .footer-card {
     display: flex;
     justify-content: space-between;
